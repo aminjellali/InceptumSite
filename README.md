@@ -1,4 +1,4 @@
-Symfony Standard Edition
+junior inceptum website
 ========================
 
 Welcome to the Symfony Standard Edition - a fully-functional Symfony
