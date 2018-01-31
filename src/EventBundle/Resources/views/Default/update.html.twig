@@ -1,0 +1,47 @@
+<script type="text/javascript" src='http://maps.google.com/maps/api/js?libraries=places&key=AIzaSyAt9WSCb5SWrmV7lafq_Bkh8QTvbBxi-oU'></script>
+
+<script src="{{ asset('js/jquery-2.1.1.js')}}"></script>
+<script src="{{ asset('locationpicker.jquery.js') }}"></script>
+{{ form_start(form) }}
+    {{ form_errors(form) }}
+<br>
+<br>
+<div class="container" style="background-color:white;    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+;
+           ">
+
+
+    <div class="container text-center"  style="width: 80%;align-self: center;">
+
+
+
+
+    {{ form_row(form.address) }}<br>
+    <div hidden>{{ form_row(form.lat) }}</div>
+    <div hidden>{{ form_row(form.longx) }}</div>
+    <div id="rad" hidden>50</div>
+
+
+    <div id="mapcontainer" style=" height: 400px;"></div>
+    <br>
+    <div class="container text-center" style="padding: 0 0;">
+        {{ form_end(form) }}
+<script>
+
+    $('#mapcontainer').locationpicker({
+        location: {
+            latitude: 36.80020105495734,
+            longitude: 10.1862232296387
+        },
+        radius: 50,
+        inputBinding: {
+            latitudeInput: $('#update_event_lat'),
+            longitudeInput: $('#update_event_longx'),
+            radiusInput: $('#rad'),
+            locationNameInput: $('#update_event_address')
+        },
+        enableAutocomplete: true,
+        onchanged: function (currentLocation, radius, isMarkerDropped) {
+        }
+    });
+</script>

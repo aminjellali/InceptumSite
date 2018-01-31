@@ -1,0 +1,35 @@
+ArticleBundle\Entity\Article:
+    type: entity
+    table: null
+    repositoryClass: ArticleBundle\Repository\ArticleRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        owner:
+            type: string
+            length: 255
+            column: Owner
+        dateCreation:
+            type: datetime
+            column: DateCreation
+        title:
+            type: string
+            length: 255
+            column: Title
+        image:
+            type: string
+            length: 255
+            column: image
+        content1:
+            type: string
+            length: '2000'
+            column: Content1
+        content2:
+            type: string
+            length: '2000'
+            column: Content2
+    lifecycleCallbacks: {  }

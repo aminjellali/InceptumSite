@@ -1,0 +1,9 @@
+event_event:
+    resource: "@EventBundle/Resources/config/routing/event.yml"
+    prefix:   /event
+Event_update:
+    path:     /update/{id}
+    defaults: { _controller: EventBundle:Event:Update }
+Event_preview:
+    path:     /Event_preview/{id}
+    defaults: { _controller: EventBundle:Event:Preview }

@@ -1,0 +1,7 @@
+member_member:
+    resource: "@MemberBundle/Resources/config/routing/member.yml"
+    prefix:   /member
+
+member_homepage:
+    path:     /
+    defaults: { _controller: MemberBundle:Default:index }
