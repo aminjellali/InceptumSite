@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+
+    <aside id="fh5co-hero" class="js-fullheight">
+        <div class="flexslider js-fullheight">
+            <ul class="slides">
+                <li style="background-image: url({{ asset('assets/images/slide_2.jpg') }});">
+                    <div class="overlay-gradient"></div>
+                    <div class="container">
+                        <div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+                            <div class="slider-text-inner">
+                                <h2>{{ event.title }}</h2>
+
+                                <ul class="countdown">
+                                    <li><span id="days"></span> days</li>
+                                    <li><span id="hours"></span> Hours</li>
+                                    <li><span id="minutes"></span> Minutes</li>
+                                    <li><span id="seconds"></span> Seconds</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+
+    <div id="fh5co-services-section">
+        <div class="container">
+
+            <div class="row fh5co-services">
+
+                <div class="col-xs-12 text-center item-block animate-box">
+                    <p>{{ event.description }}</p>
+                </div>
+                <div class="text-center" style="margin-bottom: 50px">
+                    <h3>Suivre l'événement</h3>
+                    <a href="www.facebook.com"><img src="{{ asset('assets/images/app-icon2.png') }}" width="50px" height="50px" style="margin-right: 50px"></a>
+                    <a href="https://www.instagram.com"><img src="{{ asset('assets/images/images.png') }}" width="50px" height="50px"></a>
+
+                </div>
+                <div id="map" class="animate-box" data-animate-effect="fadeIn"></div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

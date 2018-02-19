@@ -1,7 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4ea25ce-bb64-46b8-a238-77faa309be81" name="Default" comment="" />
+    <list default="true" id="d4ea25ce-bb64-46b8-a238-77faa309be81" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/EventBundle/Resources/views/Default/show.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/MemberBundle/Resources/views/member/contact.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/MemberBundle/Resources/views/member/team.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/Arrow-Up.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/Yootheme-Social-Bookmark-Social-facebook-box-blue.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/app-icon2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/back-to-top.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/dauphine.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/dauphine.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/error-1349562_1280.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/git.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/images.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/jet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/logo-old.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/logo2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assets/images/total.png" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/finalproject.iml" afterPath="$PROJECT_DIR$/.idea/finalproject.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/finalproject.iml___jb_tmp___" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/bin/console" afterPath="$PROJECT_DIR$/bin/console" />
+      <change beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
+      <change beforePath="$PROJECT_DIR$/composer.phar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+      <change beforePath="$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/index.html.twig" afterPath="$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/show.html.twig" afterPath="$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/show.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/EventBundle/Controller/EventController.php" afterPath="$PROJECT_DIR$/src/EventBundle/Controller/EventController.php" />
+      <change beforePath="$PROJECT_DIR$/src/EventBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/EventBundle/Resources/config/routing.yml" />
+      <change beforePath="$PROJECT_DIR$/src/EventBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/EventBundle/Resources/views/Default/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/MemberBundle/Controller/MemberController.php" afterPath="$PROJECT_DIR$/src/MemberBundle/Controller/MemberController.php" />
+      <change beforePath="$PROJECT_DIR$/src/MemberBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/MemberBundle/Resources/config/routing.yml" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/animate.css" afterPath="$PROJECT_DIR$/web/assets/css/animate.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/assets/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/web/assets/css/bootstrap.css.map" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/flexslider.css" afterPath="$PROJECT_DIR$/web/assets/css/flexslider.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/icomoon.css" afterPath="$PROJECT_DIR$/web/assets/css/icomoon.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/index.html" afterPath="$PROJECT_DIR$/web/assets/css/index.html" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/owl.carousel.min.css" afterPath="$PROJECT_DIR$/web/assets/css/owl.carousel.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/owl.theme.default.min.css" afterPath="$PROJECT_DIR$/web/assets/css/owl.theme.default.min.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/showarticle.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/style-aux.css" afterPath="$PROJECT_DIR$/web/assets/css/style-aux.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/style.css" afterPath="$PROJECT_DIR$/web/assets/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/style.css.map" afterPath="$PROJECT_DIR$/web/assets/css/style.css.map" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/web/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/bootstrap/index.html" afterPath="$PROJECT_DIR$/web/assets/fonts/bootstrap/index.html" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/icomoon/icomoon.eot" afterPath="$PROJECT_DIR$/web/assets/fonts/icomoon/icomoon.eot" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/icomoon/icomoon.svg" afterPath="$PROJECT_DIR$/web/assets/fonts/icomoon/icomoon.svg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/icomoon/icomoon.ttf" afterPath="$PROJECT_DIR$/web/assets/fonts/icomoon/icomoon.ttf" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/icomoon/icomoon.woff" afterPath="$PROJECT_DIR$/web/assets/fonts/icomoon/icomoon.woff" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/icomoon/index.html" afterPath="$PROJECT_DIR$/web/assets/fonts/icomoon/index.html" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/index.html" afterPath="$PROJECT_DIR$/web/assets/fonts/index.html" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/about-img.jpg" afterPath="$PROJECT_DIR$/web/assets/images/about-img.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/espritCTIsite.png" afterPath="$PROJECT_DIR$/web/assets/images/espritCTIsite.png" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/font-home.png" afterPath="$PROJECT_DIR$/web/assets/images/font-home.png" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/font-location.png" afterPath="$PROJECT_DIR$/web/assets/images/font-location.png" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/font-mail.png" afterPath="$PROJECT_DIR$/web/assets/images/font-mail.png" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/font-phone.png" afterPath="$PROJECT_DIR$/web/assets/images/font-phone.png" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/image_1.jpg" afterPath="$PROJECT_DIR$/web/assets/images/image_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/image_2.jpg" afterPath="$PROJECT_DIR$/web/assets/images/image_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/image_3.jpg" afterPath="$PROJECT_DIR$/web/assets/images/image_3.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/image_4.jpg" afterPath="$PROJECT_DIR$/web/assets/images/image_4.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/image_5.jpg" afterPath="$PROJECT_DIR$/web/assets/images/image_5.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/image_6.jpg" afterPath="$PROJECT_DIR$/web/assets/images/image_6.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/image_7.jpg" afterPath="$PROJECT_DIR$/web/assets/images/image_7.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/image_8.jpg" afterPath="$PROJECT_DIR$/web/assets/images/image_8.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/image_9.jpg" afterPath="$PROJECT_DIR$/web/assets/images/image_9.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/loader.gif" afterPath="$PROJECT_DIR$/web/assets/images/loader.gif" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/loc.png" afterPath="$PROJECT_DIR$/web/assets/images/loc.png" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo.png" afterPath="$PROJECT_DIR$/web/assets/images/logo.png" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/person1.jpg" afterPath="$PROJECT_DIR$/web/assets/images/person1.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/person2.jpg" afterPath="$PROJECT_DIR$/web/assets/images/person2.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/person3.jpg" afterPath="$PROJECT_DIR$/web/assets/images/person3.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/slide_1.jpg" afterPath="$PROJECT_DIR$/web/assets/images/slide_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/slide_2.jpg" afterPath="$PROJECT_DIR$/web/assets/images/slide_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/slide_3.jpg" afterPath="$PROJECT_DIR$/web/assets/images/slide_3.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/slider_3.jpg" afterPath="$PROJECT_DIR$/web/assets/images/slider_3.jpg" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/web/assets/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/cbpAnimatedHeader.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/classie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/google_map.js" afterPath="$PROJECT_DIR$/web/assets/js/google_map.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/html5shiv.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/index.html" afterPath="$PROJECT_DIR$/web/assets/js/index.html" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery-2.1.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/web/assets/js/jquery.easing.1.3.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery.easing.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery.flexslider-min.js" afterPath="$PROJECT_DIR$/web/assets/js/jquery.flexslider-min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery.hoverdir.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery.mb-comingsoon.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery.min.js" afterPath="$PROJECT_DIR$/web/assets/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery.waypoints.min.js" afterPath="$PROJECT_DIR$/web/assets/js/jquery.waypoints.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/main.js" afterPath="$PROJECT_DIR$/web/assets/js/main.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/modernizr-2.6.2.min.js" afterPath="$PROJECT_DIR$/web/assets/js/modernizr-2.6.2.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/modernizr.custom.97074.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/one_page.js" afterPath="$PROJECT_DIR$/web/assets/js/one_page.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/owl.carousel.min.js" afterPath="$PROJECT_DIR$/web/assets/js/owl.carousel.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/respond.min.js" afterPath="$PROJECT_DIR$/web/assets/js/respond.min.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,38 +112,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/show.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="87" lean-forward="false" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
-              <folding>
-                <marker date="1512949892502" expanded="false" signature="1764:1791" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="267" column="24" lean-forward="false" selection-start-line="267" selection-start-column="24" selection-end-line="267" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="129" column="50" lean-forward="false" selection-start-line="129" selection-start-column="50" selection-end-line="129" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showarticle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/assets/css/showarticle.css">
+      <file leaf-file-name="EventController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EventBundle/Controller/EventController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+            <state relative-caret-position="259">
+              <caret line="23" column="99" lean-forward="false" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -49,8 +150,28 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="84" />
+            <state relative-caret-position="195">
+              <caret line="137" column="7" lean-forward="false" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EventBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EventBundle/Resources/config/routing/event.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -59,8 +180,8 @@
       <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="267">
+              <caret line="24" column="67" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -69,11 +190,29 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <marker date="1512929310478" expanded="true" signature="428:449" ph="SELECT * FRO... Article" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="22" column="99" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Event.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EventBundle/Entity/Event.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standard_6.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="1168" column="9" lean-forward="false" selection-start-line="1168" selection-start-column="9" selection-end-line="1168" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,9 +228,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>private $imagefile</find>
-      <find>private $image</find>
-      <find>article</find>
       <find>owner</find>
       <find>_entity_config.name</find>
       <find>titre</find>
@@ -114,11 +250,14 @@
       <find>latitude</find>
       <find>title</find>
       <find>hello world</find>
-      <find>img</find>
       <find>js</find>
       <find>js/</find>
       <find>images</find>
       <find>we c</find>
+      <find>img</find>
+      <find>for</find>
+      <find>{%</find>
+      <find>geo</find>
     </findStrings>
     <replaceStrings>
       <replace>titre</replace>
@@ -159,6 +298,9 @@
       <command text="s fos:user:promote testuser1 ROLE_ADMIN " />
     </commandsHistory>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -176,33 +318,38 @@
         <option value="$PROJECT_DIR$/src/AdminBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/MemberBundle/Entity/Member.php" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/EventBundle/Entity/Event.php" />
         <option value="$PROJECT_DIR$/src/EventBundle/Form/UpdateEventType.php" />
         <option value="$PROJECT_DIR$/src/EventBundle/Resources/views/Default/update.html.twig" />
-        <option value="$PROJECT_DIR$/src/EventBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/EventBundle/Controller/EventController.php" />
         <option value="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/list.html.twig" />
         <option value="$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$USER_HOME$/Desktop/je/flew/index.html" />
-        <option value="$PROJECT_DIR$/src/EventBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/ArticleBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/ArticleBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/index.html.twig" />
         <option value="$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/edit.html.twig" />
         <option value="$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/new.html.twig" />
         <option value="$PROJECT_DIR$/src/EventBundle/Resources/views/Default/preview.html.twig" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="F:/downloads 2016/PhpstormProjects/PhpstormProjects/www/PFE/src/Event/EventBundle/Controller/EventController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/registration.html.twig" />
-        <option value="$PROJECT_DIR$/src/ArticleBundle/Resources/config/routing/article.yml" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/css/showarticle.css" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/ArticleBundle/Resources/config/routing/article.yml" />
+        <option value="$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/index.html.twig" />
         <option value="$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/EventBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/EventBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/EventBundle/Resources/views/Default/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/MemberBundle/Resources/views/member/team.html.twig" />
+        <option value="$PROJECT_DIR$/src/MemberBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/MemberBundle/Controller/MemberController.php" />
+        <option value="$PROJECT_DIR$/src/MemberBundle/Resources/views/member/contact.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/EventBundle/Controller/EventController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
       </list>
     </option>
   </component>
@@ -258,10 +405,10 @@
       <path value="$PROJECT_DIR$/vendor/kriswallsmith/assetic" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="739" />
-    <option name="height" value="772" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -282,215 +429,235 @@
         <subPane>
           <expand>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="default" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AdminBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AdminBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AdminBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdminBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EventBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EventBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EventBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EventBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EventBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EventBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="EventBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="routing" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MemberBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MemberBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MemberBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MemberBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MemberBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routing" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MemberBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="InceptumSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InceptumSite" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ArticleBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MemberBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="article" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EventBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EventBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EventBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="EventBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Default" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Inceptum" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Inceptum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+              <item name="member" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../finalproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ToolWindowCommand Line Tools Console.ShowToolbar" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/MemberBundle/Resources/views/member" />
+      <recent name="$PROJECT_DIR$/src/EventBundle/Resources/views/Default" />
+      <recent name="$PROJECT_DIR$/web/assets" />
       <recent name="C:\wamp64\www\Inceptum\src\EventBundle\Resources\views\Default" />
       <recent name="C:\wamp64\www\Inceptum\web" />
-      <recent name="C:\wamp64\www\Inceptum\src\EventBundle\Form" />
-      <recent name="C:\wamp64\www\finalproject_othmen\src" />
-      <recent name="C:\wamp\www\finalproject_othmen\src\EventBundle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\finalproject_othmen\src\ArticleBundle\Resources\views" />
@@ -510,14 +677,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
       <PhpTestRunnerSettings />
       <method />
@@ -576,6 +735,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -610,55 +777,39 @@
       <workItem from="1512920881613" duration="11090000" />
       <workItem from="1512945865407" duration="4893000" />
       <workItem from="1512962540758" duration="338000" />
+      <workItem from="1517411807607" duration="435000" />
+      <workItem from="1518444056094" duration="4299000" />
+      <workItem from="1519038006484" duration="6479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89414000" />
+    <option name="totallyTimeSpent" value="100627000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22541603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.86252046" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.86252046" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.86252046" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44189852" sideWeight="0.48487142" order="7" side_tool="false" content_ui="tabs" x="22" y="555" width="1325" height="130" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44189852" sideWeight="0.48487142" order="10" side_tool="false" content_ui="tabs" x="22" y="555" width="1325" height="130" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.238653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -679,92 +830,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MemberBundle/Entity/Member.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2567">
-          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberBundle/Controller/MemberController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/paginator.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Twig/EasyAdminTwigExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="164" column="13" lean-forward="false" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/uploads/images/articles/background.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/uploads/images/articles/WIN_20170309_22_43_05_Pro.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/uploads/images/articles/WIN_20170309_22_43_12_Pro.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EventBundle/EventBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/locationpicker.jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/classie.js" />
     <entry file="file://$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Controller/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -787,13 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EventBundle/Entity/Event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2593">
-          <caret line="260" column="0" lean-forward="false" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -810,53 +868,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EventBundle/Resources/config/routing/event.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EventBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EventBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,13 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EventBundle/Controller/EventController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="72" column="31" lean-forward="false" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -897,42 +905,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/config/routing/article.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/downloads 2016/PhpstormProjects/PhpstormProjects/www/PFE/src/Event/EventBundle/Controller/EventController.php" />
-    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AdminBundle/Entity/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -940,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,54 +934,249 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/assets/css/showarticle.css" />
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="11" lean-forward="false" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="84" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/css/showarticle.css">
+    <entry file="file://$PROJECT_DIR$/web/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/config/routing/article.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EventBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="68" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EventBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#404#475#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EventBundle/Resources/views/Default/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="e#201#273#0#HTML" expanded="false" />
+            <element signature="e#1471#1498#0#HTML" expanded="false" />
+            <element signature="e#1676#1702#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberBundle/Resources/config/routing/member.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberBundle/Controller/MemberController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="129" column="57" lean-forward="false" selection-start-line="129" selection-start-column="57" selection-end-line="129" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberBundle/Resources/views/member/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberBundle/Resources/views/member/team.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2445">
+          <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemberBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="267">
+          <caret line="24" column="67" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="1168" column="9" lean-forward="false" selection-start-line="1168" selection-start-column="9" selection-end-line="1168" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EventBundle/Entity/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="80" column="17" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="137" column="7" lean-forward="false" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EventBundle/Resources/config/routing/event.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EventBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <marker date="1512929310478" expanded="true" signature="428:449" ph="SELECT * FRO... Article" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="22" column="99" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="99" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArticleBundle/Resources/views/article/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/EventBundle/Controller/EventController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="87" lean-forward="false" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
-          <folding>
-            <marker date="1512949892502" expanded="false" signature="1764:1791" ph="..." />
-          </folding>
+        <state relative-caret-position="259">
+          <caret line="23" column="99" lean-forward="false" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="99" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="267" column="24" lean-forward="false" selection-start-line="267" selection-start-column="24" selection-end-line="267" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="129" column="50" lean-forward="false" selection-start-line="129" selection-start-column="50" selection-end-line="129" selection-end-column="50" />
           <folding />
         </state>
       </provider>

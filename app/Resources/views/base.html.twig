@@ -1,115 +1,444 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% block title %}Welcome!{% endblock %}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+    <meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+    <meta name="author" content="FreeHTML5.co" />
+
+    <!--
+      //////////////////////////////////////////////////////
+
+      FREE HTML5 TEMPLATE
+      DESIGNED & DEVELOPED by FreeHTML5.co
+
+      Website: 		http://freehtml5.co/
+      Email: 			info@freehtml5.co
+      Twitter: 		http://twitter.com/fh5co
+      Facebook: 		https://www.facebook.com/fh5co
+
+      //////////////////////////////////////////////////////
+       -->
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="{{ asset('assets/css/icomoon.css') }}">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
+    <!-- Font Awesome  -->
+
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="{{ asset('assets/css/flexslider.css') }}">
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css') }}">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    {% block stylesheets %}
 
 
-        {% endblock %}
-        {# css #}
-        <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-        <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-        <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-        <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-        <head>
-            <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <title>Inceptum</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
-            <meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-            <meta name="author" content="FreeHTML5.co" />
+    {% endblock %}
+    <link rel="stylesheet" href="{{ asset('assets/css/style-aux.css') }}">
+    <!-- Modernizr JS -->
+    <script src="{{ asset('assets/js/modernizr-2.6.2.min.js') }}"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="{{ asset('assets/js/respond.min.js') }}"></script>
+    <![endif]-->
 
-            <!--
-              //////////////////////////////////////////////////////
+</head>
+<body>
 
-              FREE HTML5 TEMPLATE
-              DESIGNED & DEVELOPED by FreeHTML5.co
 
-              Website: 		http://freehtml5.co/
-              Email: 			info@freehtml5.co
-              Twitter: 		http://twitter.com/fh5co
-              Facebook: 		https://www.facebook.com/fh5co
+<div id="fh5co-page">
+    <header id="fh5co-header" role="banner">
+        <div class="container">
+            <div class="header-inner">
+                <h1><a href="{{ path('homepage') }}"><img src="{{ asset('assets/images/logo2.png') }}" width="250px"></a></h1>
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="{{ path('homepage') }}">Accueil</a></li>
+                        <li><a href="{{ path('article_index') }}">Articles</a></li>
+                        <li><a href="{{ path('event_index') }}">Événements</a></li>
+                        <li><a href="{{ path('team') }}">Team</a></li>
+                        <li><a href="{{ path('contact') }}">Contact</a></li>
+                        <li class="cta" data-toggle="modal" data-target="#myModal" ><a href="#">Lancer projet</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Lancer un projet</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="form-group">
+                                    <label for="nom">Nom :</label>
+                                    <input id="nom" class="form-control" type="text" placeholder="Nom" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email :</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sujet">Nom du projet :</label>
+                                    <input id="sujet" class="form-control" type="text" placeholder="Nom du projet" required>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="form-group">
+                                    <label >Description du projet:</label>
+                                    <textarea class="form-control" rows="9"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center animate-box btn-envoyer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
+                                <input class="btn btn-primary with-arrow" type="submit" value="Envoyer" >
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
 
-              //////////////////////////////////////////////////////
-               -->
+                    </div>
+                </div>
 
-            <!-- Facebook and Twitter integration -->
-            <meta property="og:title" content=""/>
-            <meta property="og:image" content=""/>
-            <meta property="og:url" content=""/>
-            <meta property="og:site_name" content=""/>
-            <meta property="og:description" content=""/>
-            <meta name="twitter:title" content="" />
-            <meta name="twitter:image" content="" />
-            <meta name="twitter:url" content="" />
-            <meta name="twitter:card" content="" />
+            </div>
+        </div>
+    </header>
+    {% block content %}
 
-            <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-            <link rel="shortcut icon" href="favicon.ico">
-            <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,700" rel="stylesheet">
 
-            <!-- Animate.css -->
-            <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet" />
-            <!-- Icomoon Icon Fonts-->
-            <link rel="stylesheet" href="assets/css/icomoon.css">
-            <link href="{{ asset('assets/css/icomoon.css') }}" rel="stylesheet" />
-            <!-- Bootstrap  -->
-            <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet" />
-            <!-- Font Awesome  -->
 
-            <!-- Flexslider  -->
-            <link href="{{ asset('assets/css/flexslider.css') }}" rel="stylesheet" />
-            <!-- Owl Carousel  -->
-            <link href="{{ asset('assets/css/owl.carousel.min.css') }}" rel="stylesheet" />
-            <link href="{{ asset('assets/css/owl.theme.default.min.css') }}" rel="stylesheet" />
-            <!-- Theme style  -->
-            <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" />
-            <link href="{{ asset('assets/css/style-aux.css') }}" rel="stylesheet" />
-            <!-- Modernizr JS -->
-            <script src="{{ asset('assets/js/modernizr.custom.97074.js') }}"></script>
-            <!-- FOR IE9 below -->
-            <!--[if lt IE 9]>
-            <script src="{{ asset('assets/js/respond.min.js') }}"></script>
-            <![endif]-->
+    <!-- -------------------------- Slideshow--------------------- -->
 
-            {# end css#}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-    </head>
-    <body>
-    {# navbar #}
-    <div id="fh5co-page">
-        <header id="fh5co-header" role="banner">
-            <div class="container">
-                <div class="header-inner">
-                    <h1><a href="{{ url('homepage') }}"><img src="{{ asset('assets/images/logo.png') }}" width="100px"></a></h1>
-                    <nav role="navigation">
-                        <ul>
-                            <li><a href="#fh5co-services-section">Accueil</a></li>
-                            <li><a href="#fh5co-blog-section">Articles</a></li>
-                            <li><a href="#events">Événements</a></li>
-                            <li><a href="#fh5co-services-section">Team</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li class="cta" ><a href="#mail">Lancer project</a></li>
-                        </ul>
-                    </nav>
+
+    <aside id="fh5co-hero" class="js-fullheight">
+        <div class="flexslider js-fullheight">
+            <ul class="slides">
+                <li style="background-image: url({{ asset('assets/images/slide_1.jpg') }});">
+                    <div class="container">
+                        <div class="col-md-12 text-center js-fullheight fh5co-property-brief slider-text">
+                            <div class="fh5co-property-brief-inner">
+                                <div class="fh5co-box">
+                                    <h3><a href="#">Junior enterprise</a></h3>
+                                    <div class="price-status">
+                                    </div>
+                                    <p>Les Junior-Entreprises (J.E.) sont des associations à vocation économique et pédagogique, à but non lucratif1. Associations étudiantes implantées dans les établissements d’enseignement supérieur, les Junior-Entreprises se définissent comme un vecteur d’employabilité et d’engagement des étudiants. En leur permettant de mettre en pratique l’enseignement théorique qu’il reçoivent, les Junior-Entreprises constituent une passerelle entre les études et l’entreprise, au service de l’insertion professionnelle des étudiants.
+                                    </p>
+                                    <p class="fh5co-property-specification">
+                                        <span><strong>2 600</strong> projets chaque année</span> <br>  <span><strong>20 000</strong> Membres</span>
+                                    </p>
+
+                                    <p><a data-toggle="modal" data-target="#myModal" class="btn btn-primary">Lancer project</a></p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url({{ asset('assets/images/espritCTIsite.png') }})">
+                    <div class="container">
+                        <div class="col-md-12 text-center js-fullheight fh5co-property-brief slider-text">
+                            <div class="fh5co-property-brief-inner">
+                                <div class="fh5co-box">
+                                    <h3><a href="#">Junior enterprise</a></h3>
+                                    <div class="price-status">
+                                    </div>
+                                    <p>Les Junior-Entreprises (J.E.) sont des associations à vocation économique et pédagogique, à but non lucratif1. Associations étudiantes implantées dans les établissements d’enseignement supérieur, les Junior-Entreprises se définissent comme un vecteur d’employabilité et d’engagement des étudiants. En leur permettant de mettre en pratique l’enseignement théorique qu’il reçoivent, les Junior-Entreprises constituent une passerelle entre les études et l’entreprise, au service de l’insertion professionnelle des étudiants.
+                                    </p>
+                                    <p class="fh5co-property-specification">
+                                        <span><strong>2 600</strong> projets chaque année</span> <br>  <span><strong>20 000</strong> Membres</span>
+                                    </p>
+
+                                    <p><a data-toggle="modal" data-target="#myModal" class="btn btn-primary">Lancer project</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li style="background-image: url({{ asset('assets/images/slider_3.jpg') }})">
+                    <div class="container">
+                        <div class="col-md-12 text-center js-fullheight fh5co-property-brief slider-text">
+                            <div class="fh5co-property-brief-inner">
+                                <div class="fh5co-box">
+                                    <h3><a href="#">Junior enterprise</a></h3>
+                                    <div class="price-status">
+                                    </div>
+                                    <p>Les Junior-Entreprises (J.E.) sont des associations à vocation économique et pédagogique, à but non lucratif1. Associations étudiantes implantées dans les établissements d’enseignement supérieur, les Junior-Entreprises se définissent comme un vecteur d’employabilité et d’engagement des étudiants. En leur permettant de mettre en pratique l’enseignement théorique qu’il reçoivent, les Junior-Entreprises constituent une passerelle entre les études et l’entreprise, au service de l’insertion professionnelle des étudiants.
+                                    </p>
+                                    <p class="fh5co-property-specification">
+                                        <span><strong>2 600</strong> projets chaque année</span> <br>  <span><strong>20 000</strong> Membres</span>
+                                    </p>
+                                    <p><a data-toggle="modal" data-target="#myModal" class="btn btn-primary">Lancer project</a></p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </aside>
+    <!--  ---------------END -------------------- -->
+
+
+    <div id="fh5co-services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+                    <h2>On fait l'IT</h2>
+                    <p>Nous créons la meilleure qualité dans les brefs dèlais avec les diverses technologies</p>
                 </div>
             </div>
-        </header>
-    {# End navbar #}
+            <div class="row">
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <i class="icon-laptop"></i>
+                        <div class="desc">
+                            <h3>Des application desktop</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <i class="icon-server"></i>
+                        <div class="desc">
+                            <h3>Des site web</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
 
-        {% block content %}
-        {% endblock %}
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <i class="icon-tablet"></i>
+                        <div class="desc">
+                            <h3>Des applications Mobile</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
 
-    {# Footer #}
+            </div>
+        </div>
+    </div>
+
+
+    <div id="fh5co-testimony-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+                    <h2>Temoignages</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-offset-0 to-animate">
+                    <div class="wrap-testimony animate-box">
+                        <div class="owl-carousel-fullwidth">
+                            <div class="item">
+                                <div class="testimony-slide active text-center">
+                                    <figure>
+                                        <img src="{{ asset('assets/images/person1.jpg') }}" alt="user">
+                                    </figure>
+                                    <blockquote>
+                                        <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+                                    </blockquote>
+                                    <span>Athan Smith, via <a href="#" class="twitter">Twitter</a></span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimony-slide active text-center">
+                                    <figure>
+                                        <img src="{{ asset('assets/images/person2.jpg') }}" alt="user">
+                                    </figure>
+                                    <blockquote>
+                                        <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+                                    </blockquote>
+                                    <span>Nathalie Kosley, via <a href="#" class="twitter">Twitter</a></span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimony-slide active text-center">
+                                    <figure>
+                                        <img src="{{ asset('assets/images/person3.jpg') }}" alt="user">
+                                    </figure>
+                                    <blockquote>
+                                        <p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+                                    </blockquote>
+                                    <span>Yanna Kuzuki, via <a href="#" class="twitter">Twitter</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fh5co-blog-section" class="fh5co-light-grey-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+                    <h2>Événements</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 animate-box">
+                    <a href="#" class="item-grid">
+                        <div class="image" style="background-image: url({{ asset('assets/images/image_1.jpg') }})"></div>
+                        <div class="v-align">
+                            <div class="v-align-middle">
+                                <h3 class="title">We Create Mobile App</h3>
+                                <h5 class="date"><span>June 23, 2016</span> </h5>
+                                <p>Far far away, behind the word mountains...</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6 animate-box">
+                    <a href="#" class="item-grid">
+                        <div class="image" style="background-image: url({{ asset('assets/images/image_1.jpg') }})"></div>
+                        <div class="v-align">
+                            <div class="v-align-middle">
+                                <h3 class="title">We Create Mobile App</h3>
+                                <h5 class="date"><span>June 23, 2016</span> </h5>
+                                <p>Far far away, behind the word mountains...</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6 animate-box">
+                    <a href="#" class="item-grid">
+                        <div class="image" style="background-image: url({{ asset('assets/images/image_1.jpg') }})"></div>
+                        <div class="v-align">
+                            <div class="v-align-middle">
+                                <h3 class="title">We Create Mobile App</h3>
+                                <h5 class="date"><span>June 23, 2016</span> </h5>
+                                <p>Far far away, behind the word mountains...</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-6 animate-box">
+                    <a href="#" class="item-grid">
+                        <div class="image" style="background-image: url({{ asset('assets/images/image_1.jpg') }})"></div>
+                        <div class="v-align">
+                            <div class="v-align-middle">
+                                <h3 class="title">We Create Mobile App</h3>
+                                <h5 class="date"><span>June 23, 2016</span> </h5>
+                                <p>Far far away, behind the word mountains...</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-12 text-center animate-box">
+                    <p><a href="#" class="btn btn-primary with-arrow">voir plus d'articles<i class="icon-arrow-right"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fh5co-pricing-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading animate-box">
+                    <h2>Partenaires</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="pricing">
+                    <div class="col-md-3 animate-box">
+                        <div class="price-box">
+                            <img src="{{ asset('assets/images/jet.png') }}" width="100%">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                            <a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 animate-box">
+                        <div class="price-box">
+                            <img src="{{ asset('assets/images/dauphine.jpg') }}" width="100%">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                            <a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 animate-box">
+                        <div class="price-box ">
+                            <img src="{{ asset('assets/images/total.png') }}" width="100%">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                            <a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 animate-box">
+                        <div class="price-box">
+                            <img src="{{ asset('assets/images/git.png') }}" width="100%">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                            <a href="#" class="btn btn-select-plan btn-sm">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+    <div class="fh5co-cta" style="background-image: url('{{ asset('assets/images/slide_2.jpg') }}');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="col-md-12 text-center animate-box">
+                <h3>Inceptum Junior Entreprise</h3>
+                <p><a href="#" class="btn btn-primary btn-outline with-arrow" data-toggle="modal" data-target="#myModal" >Lancer project<i class="icon-arrow-right"></i></a></p>
+            </div>
+        </div>
+    </div>
+    <a href="#fh5co-header"><img src="{{ asset('assets/images/back-to-top.png') }}" id="toTop" alt="Back to top"></a>
     <footer id="fh5co-footer" role="contentinfo">
 
         <div class="container">
             <div class="col-md-3 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
                 <h3>About Us</h3>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                <p><a href="#mail" class="btn btn-primary btn-outline with-arrow btn-sm">Nous rejoindre <i class="icon-arrow-right"></i></a></p>
+                <p><a class="btn btn-primary btn-outline with-arrow btn-sm" data-toggle="modal" data-target="#myModal" >Nous rejoindre <i class="icon-arrow-right"></i></a></p>
             </div>
             <div class="col-md-6 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
                 <h3>Nos services</h3>
@@ -143,59 +472,91 @@
 
         </div>
     </footer>
-    </div>
+</div>
 
-    <!-- jQuery -->
-    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
-    <!-- jQuery Easing -->
-    <script src="{{ asset('assets/js/jquery.easing.1.3.js') }}"></script>
-    <!-- Bootstrap -->
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-    <!-- Waypoints -->
-    <script src="{{ asset('assets/js/jquery.waypoints.min.js') }}"></script>
-    <!-- Owl Carousel -->
-    <script src="{{ asset('assets/js/owl.carousel.min.js.') }}"></script>
-    <!-- Flexslider -->
-    <script src="{{ asset('assets/js/jquery.flexslider-min.js') }}"></script>
-    <!-- MAIN JS -->
-    <script src="{{ asset('assets/js/main.js') }}"></script>
-    <!-- Shrink header-->
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7PCjbBYyEJGN4iUHkuJBiBOnew-qKNgI&callback=initMap"/>
-    <script type="text/javascript">
-    </script>
-    <script type="text/javascript">
-        window.onscroll = changePos;
+<!-- jQuery -->
+<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+<!-- jQuery Easing -->
+<script src="{{ asset('assets/js/jquery.easing.1.3.js') }}"></script>
+<!-- Bootstrap -->
+<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+<!-- Waypoints -->
+<script src="{{ asset('assets/js/jquery.waypoints.min.js') }}"></script>
+<!-- Owl Carousel -->
+<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+<!-- Flexslider -->
+<script src="{{ asset('assets/js/jquery.flexslider-min.js') }}"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+<script src="{{ asset('assets/js/google_map.js') }}"></script>
+<!-- MAIN JS -->
+<script src="{{ asset('assets/js/main.js') }}"></script>
 
-        function changePos() {
-            var header = document.getElementById("fh5co-header");
-            if (window.pageYOffset > 70) {
-                header.style.position = "absolute";
-                header.style.top = pageYOffset + "px";
-            } else {
-                header.style.position = "";
-                header.style.top = "";
-            }
+
+
+<!-- Shrink header-->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7PCjbBYyEJGN4iUHkuJBiBOnew-qKNgI&callback=initMap">
+</script>
+
+<script type="text/javascript">
+    window.onscroll = changePos;
+
+    function changePos() {
+        var header = document.getElementById("fh5co-header");
+        if (window.pageYOffset > 70) {
+            header.style.position = "absolute";
+            header.style.top = pageYOffset + "px";
+        } else {
+            header.style.position = "";
+            header.style.top = "";
         }
-    </script>
-    <!-- scroll -->
+    }
+</script>
+<!-- scroll -->
 
-    <script>
-        jQuery(document).ready(function($) {
-            $('a[href^="#"]').bind('click.smoothscroll',function (e) {
-                e.preventDefault();
-                var target = this.hash,
-                    $target = $(target);
+<script>
+    jQuery(document).ready(function($) {
+        $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+            e.preventDefault();
+            var target = this.hash,
+                $target = $(target);
 
-                $('html, body').stop().animate( {
-                    'scrollTop': $target.offset().top-40
-                }, 900, 'swing', function () {
-                    window.location.hash = target;
-                } );
+            $('html, body').stop().animate( {
+                'scrollTop': $target.offset().top-40
+            }, 900, 'swing', function () {
+                window.location.hash = target;
             } );
         } );
-    </script>
 
-    {# End Footer #}
-    </body>
+    } );
+</script>
+<script >
+    const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+    let countDown = new Date('Sep 30, 2018 00:00:00').getTime(),
+        x = setInterval(function() {
+
+            let now = new Date().getTime(),
+                distance = countDown - now;
+
+            document.getElementById('days').innerHTML = Math.floor(distance / (day)),
+                document.getElementById('hours').innerHTML = Math.floor((distance % (day)) / (hour)),
+                document.getElementById('minutes').innerHTML = Math.floor((distance % (hour)) / (minute)),
+                document.getElementById('seconds').innerHTML = Math.floor((distance % (minute)) / second);
+
+            //do something later when date is reached
+            //if (distance < 0) {
+            //  clearInterval(x);
+            //  'IT'S MY BIRTHDAY!;
+            //}
+
+        }, second)
+</script>
+
+
+
+</body>
 </html>

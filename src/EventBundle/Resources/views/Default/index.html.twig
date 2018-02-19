@@ -1,1 +1,22 @@
 {% extends 'base.html.twig' %}
+{% block content %}
+<div id="fh5co-work-section" class="fh5co-light-grey-section">
+    <div class="container">
+        <div class="row">
+            {% for event in events %}
+                <div class="col-md-4 animate-box">
+                    <a href="{{ path('event_show',{'id': event.id }) }}" class="item-grid text-center">
+                        <div class="image" style="background-image: url({{ asset('assets/images/image_1.jpg') }})"></div>
+                        <div class="v-align">
+                            <div class="v-align-middle">
+                                <h3 class="title">{{ event.title }}</h3>
+                                <h5 class="category">Web Application</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

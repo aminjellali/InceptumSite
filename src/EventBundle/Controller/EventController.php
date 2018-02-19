@@ -21,9 +21,9 @@ class EventController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
 
-        $events = $em->getRepository('EventBundle:Event')->findAll();
+        $events = $em->getRepository('EventBundle:Event')->findBy(array(), array('Date' => 'DESC'));
 
-        return $this->render('event/index.html.twig', array(
+        return $this->render('EventBundle:Default:index.html.twig', array(
             'events' => $events,
         ));
     }
@@ -60,7 +60,7 @@ class EventController extends Controller
     {
         $deleteForm = $this->createDeleteForm($event);
 
-        return $this->render('event/show.html.twig', array(
+        return $this->render('EventBundle:Default:show.html.twig', array(
             'event' => $event,
             'delete_form' => $deleteForm->createView(),
         ));

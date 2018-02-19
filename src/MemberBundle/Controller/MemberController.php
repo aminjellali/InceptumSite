@@ -121,4 +121,12 @@ class MemberController extends Controller
             ->getForm()
         ;
     }
+    public function teamAction()
+    {
+        return $this->render('MemberBundle:member:team.html.twig');
+    }
+    public function contactAction()
+    {
+        return $this->render('MemberBundle:member:contact.html.twig');
+    }
 }

@@ -231,3 +231,12 @@ $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').focus()
     if (!data) return e.preventDefault()
 })
+$(document).ready(function(){
+    $('.one').backstretch('http://media-cache-ak0.pinimg.com/236x/07/d8/2d/07d82db20eae061552689e1c13bf3021.jpg');
+    $('.two').backstretch('http://media-cache-ec0.pinimg.com/236x/79/2a/2b/792a2bea635b71db95e423dc9d06af40.jpg');
+    $('.three').backstretch('http://media-cache-ec0.pinimg.com/236x/34/8b/06/348b06df7318f5d334deec9cf46a889c.jpg');
+    $('.four').backstretch('http://media-cache-ec0.pinimg.com/236x/09/7a/af/097aafca5a2f163ef70ad6f7c2d246d4.jpg');
+
+    //Gallery
+
+});

@@ -5,3 +5,9 @@ member_member:
 member_homepage:
     path:     /
     defaults: { _controller: MemberBundle:Default:index }
+team:
+    path:     /team
+    defaults: { _controller: MemberBundle:Member:team }
+contact:
+    path:     /contact
+    defaults: { _controller: MemberBundle:Member:contact }

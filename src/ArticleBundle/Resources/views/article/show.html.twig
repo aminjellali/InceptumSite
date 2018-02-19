@@ -3,85 +3,31 @@
 
         {% endblock %}
 {% block content %}
-    <div class="container">
-        <div class="content">
-            <div class="image" >
-                <img src="{{ asset('/uploads/images/articles/') }}{{ article.image }}"  alt="" />
-            </div>
-            <div class="desc">
-      <span class="type">
-        <i class="fa fa-file-text"></i>
-      </span>
-
-                <h1>{{ article.title }}</h1>
-                <p>{{ article.content1 }} {{ article.content2 }}</p>
-
-                <div class="share">
-                    <ul>
-                        <li>
-                            <span>
-                                <i class="fa fa-eye"></i>{% if article.dateCreation %}{{ article.dateCreation|date('Y-m-d H:i:s') }}{% endif %}
-                            </span>
-                        </li>
-                        <li>
-                            <i class="fa fa-user-circle-o"></i> by {{ article.owner }}
-                        </li>
-
-                    </ul>
+    <section class="container">
+        <div class="article-content">
+            <div class="article-header">
+                <div class="col-xs-8">
+                    <h2 class="article-title">{{ article.title }}</h2>
+                    <p>Categorie : article</p>
+                </div>
+                <div class="col-xs-4 text-center">
+                    <img src="{{ asset('assets/images/image_1.jpg') }}" width="150px" height="150px" class="article-img">
+                    <p>{{ article.owner }}</p>
                 </div>
             </div>
+
+            <div class="article-body">
+                <div>
+                    {{ article.content1 }}
+                </div>
+                <br>
+                <div>
+                    {{ article.content2 }}
+                </div>
+            </div>
+            <div class="article-footer">
+                <p>date de création : {{ article.datecreation|date('d/m/yy') }}</p>
+            </div>
         </div>
-    </div>
-{#
-    <h1>Article</h1>
-
-    <table>
-        <tbody>
-            <tr>
-                <th>Id</th>
-                <td>{{ article.id }}</td>
-            </tr>
-            <tr>
-                <th>Owner</th>
-                <td>{{ article.owner }}</td>
-            </tr>
-            <tr>
-                <th>Datecreation</th>
-                <td>{% if article.dateCreation %}{{ article.dateCreation|date('Y-m-d H:i:s') }}{% endif %}</td>
-            </tr>
-            <tr>
-                <th>Title</th>
-                <td>{{ article.title }}</td>
-            </tr>
-            <tr>
-                <th>Ownerimage</th>
-                <img style="height: 300px;width: 300px;" src="{{ asset('/uploads/images/articles/') }}{{ article.image }} " alt="" >
-
-            </tr>
-            <tr>
-                <th>Content1</th>
-                <td>{{ article.content1 }}</td>
-            </tr>
-            <tr>
-                <th>Content2</th>
-                <td>{{ article.content2 }}</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <ul>
-        <li>
-            <a href="{{ path('article_index') }}">Back to the list</a>
-        </li>
-        <li>
-            <a href="{{ path('article_edit', { 'id': article.id }) }}">Edit</a>
-        </li>
-        <li>
-            {{ form_start(delete_form) }}
-                <input type="submit" value="Delete">
-            {{ form_end(delete_form) }}
-        </li>
-    </ul>
-
-    #}
+    </section>
 {% endblock %}
